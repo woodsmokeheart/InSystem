@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta
+            name='viewport'
+            content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'
+    >
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <link rel='stylesheet' href='assets/css/style.css'>
+    <link
+            href='https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Raleway:wght@800&display=swap'
+            rel='stylesheet'
+    >
+    <title>InSystemTest</title>
+</head>
+<body>
+
+<div class='navbar'>
+    <div class='wrapper'>
+        <div class='navbar__container'>
+            <div class='navbar__logo'>
+                <p>LoremIpsum.<span class='color_text'>Net</span></p>
+            </div>
+            <div class='navbar__links'>
+                <a href='#'>Бизнес</a>
+                <a href='#'>О нас</a>
+                <a href='#'>Цены</a>
+                <a href='#'>Оформить заказ</a>
+            </div>
+        </div>
+    </div>
+</div>
+<section class='banner'>
+    <div class='wrapper'>
+        <div class='banner__title'>
+            <p><span class='color_text'>Lorem ipsum</span> dolor sit amet</p>
+            <p>consectetur<span class='color_text'> adipiscing</span></p>
+        </div>
+
+        <div class='banner__content'>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
+            <ul>
+                <li>Totam rem aperiam eaque ipsa</li>
+                <li>Sit voluptatem accusantium doloremque laudantium</li>
+                <li>Sed ut perspiciatis, unde omnis iste natus error</li>
+            </ul>
+            <div class='banner__content_btn'>
+                <button type='button' class='button _button-blue'>Заказать</button>
+                <button type='button' class='button'>Подробнее</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class='ordering'>
+    <div class='wrapper'>
+        <div class='ordering__title'>
+            <h3>Оформление <span class='color_text'>Заказа</span></h3>
+            <p>Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+        </div>
+        <div class='ordering__icons-block'>
+            <div class='ordering__icons-block_item'>
+                <i class='fas fa-search'></i>
+                <p>Lorem ipsum dolor
+                   sit amet</p>
+            </div>
+            <hr />
+            <div class='ordering__icons-block_item'>
+                <i class='fas fa-percent'></i>
+                <p>Сonsecteturadipiscing elit</p>
+            </div>
+            <hr />
+            <div class='ordering__icons-block_item'>
+                <i class='fas fa-clipboard-list'></i>
+                <p>Sed do eiusmod tempor</p>
+            </div>
+            <hr />
+            <div class='ordering__icons-block_item'>
+                <i class='far fa-envelope'></i>
+                <p>Esse cillum dolore
+                   eu fugiat</p>
+            </div>
+            <hr />
+            <div class='ordering__icons-block_item'>
+                <i class='far fa-money-bill-alt'></i>
+                <p>Excepteur sint occaecat cupidatat non proident</p>
+            </div>
+        </div>
+        <div class='ordering__registration'>
+            <form action='#' class='ordering__registration_form'>
+                <div class='field'>
+                    <select class='select'>
+                        <option style="display: none;">Выберите тип системы</option>
+                        <option>Sed ut perspiciatis</option>
+                        <option>Nemo enim ipsam</option>
+                        <option>Et harum quidem</option>
+                        <option>Temporibus autem</option>
+                        <option>Itaque earum rerum</option>
+                    </select>
+                </div>
+                <div class='field'>
+                    <input name='email' type='text' placeholder='Ваш E-mail' />
+                </div>
+                <div class='field'>
+                    <input name='name' type='text' placeholder='Ваше имя' />
+                </div>
+                <div class='field _field-two-coll'>
+                    <label class='slider'>
+                        Sed ut perspiciatis, unde omnis iste natus
+                        <span id='percent'></span>
+                        <input type='range' min='0' max='100' value='75' class='slider__input' id='range'>
+                    </label>
+                </div>
+                <div class='field'>
+                    <div class='btnAttach_file'>
+                        <label for='myfile' class='label'><i class='far fa-file-alt'></i>Прикрепить файл</label>
+                        <input type='file' class='my' id='myfile' name='myfile' multiple>
+                    </div>
+                </div>
+                <div class='ordering__registration_form_submit-btn'>
+                    <button type='button' class='button _button_send'>Отправить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<footer class='footer'>
+    <div class='wrapper'>
+        <div class='footer__block'>
+            <p>© 2018 «LOREMIPSUM.NET» Все права защищены.</p>
+        </div>
+        <div class='footer__block'>
+            <a href=''><img src='assets/img/Qiwi.png' alt='Qiwi'>Qiwi wallet</a>
+            <a href=''><img src='assets/img/YandexMoney.png' alt='YandexMoney'>Yandex Money</a>
+            <a href=''><img src='assets/img/WebMoney.png' alt='WebMoney'>Web Money</a>
+        </div>
+        <div class='footer__block'>
+            <a href='#'><span class='color_text'><i class='far fa-envelope'></i></span>info@ipsum228.com</a>
+            <a href='#'><span class='color_text'>В</span>Мы вконтакте</a>
+        </div>
+    </div>
+</footer>
+
+
+<script src='https://kit.fontawesome.com/39c1a63b2c.js' crossorigin='anonymous'></script>
+<script>
+  let slider = document.getElementById('range')
+  let output = document.getElementById('percent')
+  output.innerHTML = slider.value
+
+  slider.oninput = function () {
+    output.innerHTML = this.value
+  }
+</script>
+</body>
+</html>

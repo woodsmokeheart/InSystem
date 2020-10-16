@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aeb6e018-519a-4358-8109-4ce0e42b32e5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iK1eTLxgIx0AeXOvkuFNY0W2jd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aeb6e018-519a-4358-8109-4ce0e42b32e5" name="Default Changelist" comment="" />
+      <created>1601641564742</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601641564742</updated>
+      <workItem from="1601641565835" duration="16107000" />
+      <workItem from="1601712581319" duration="14424000" />
+      <workItem from="1601890734965" duration="17498000" />
+      <workItem from="1601973925416" duration="11484000" />
+      <workItem from="1601987346474" duration="7111000" />
+      <workItem from="1602054356788" duration="20274000" />
+      <workItem from="1602140097231" duration="156000" />
+      <workItem from="1602141155644" duration="11000" />
+      <workItem from="1602142042610" duration="13192000" />
+      <workItem from="1602226961810" duration="9950000" />
+      <workItem from="1602238159692" duration="964000" />
+      <workItem from="1602500636836" duration="2162000" />
+      <workItem from="1602570066988" duration="3936000" />
+      <workItem from="1602841771599" duration="894000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1601641757207">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601641757207" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602076672981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602076672981" />
+    <state x="328" y="57" key="SettingsEditor" timestamp="1602841810703">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="328" y="57" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1602841810703" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602140255291" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601990934658">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601990934658" />
+  </component>
+</project>
